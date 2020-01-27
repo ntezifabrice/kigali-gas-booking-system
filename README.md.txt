@@ -1,2 +1,2 @@
 # kigali-gas-booking-system
-Kigali Gas Booking System Project
+Kigali Gas Booking System
