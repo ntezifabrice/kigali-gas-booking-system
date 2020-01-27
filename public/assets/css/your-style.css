@@ -1,0 +1,44 @@
+
+/*------------------------------------------------------------------
+* Project:        Togoby
+* Author:         Crenoveative
+* URL:            http://crenoveative.com or https://themeforest.net/user/crenoveative/portfolio
+* Created:        08/03/2017
+-------------------------------------------------------------------*/
+
+
+/**
+ * Add your style here
+ */
+
+#sp-top-bar{
+    z-index: 3;
+}
+@media (max-width: 991px) {
+    .hero .wrap-content h1 > span{
+        display:block;
+    }
+}
+@media (max-width: 767px) {
+    .hero .wrap-content h1 > span{
+        display:block;
+        font-size:1.4em
+    }
+}
+#payment-div{
+    padding-left: 25px;
+    outline: 2px solid #E37900;
+}
+#payment-div > form{
+    opacity: 0.6;
+}
+#payment-div > form *{
+    cursor: not-allowed;
+}
+@media (min-width: 991px) {
+    .col-sm-4 .list-box-listing-img a img {
+        height: 250px;
+        min-width: 100%;
+        width: auto;
+    }
+}
