@@ -10,7 +10,7 @@
 
                 <div class="wrap-content">
 
-                    <h1 class="okkk">Welcome to <span>Kigali Gas Booking</span> System</h1>
+                    <h1>Welcome to <span>Kigali Gas Booking</span> System</h1>
                     <p>Book your gas bottle and stay home, we will reach you in 5 minutes</p>
 
                     <form action="{{url('/cylinders')}}" id="searching_form">
