@@ -1,1 +1,5 @@
-
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/bazasoft/public_html/bazasoft.rw/kigaligasbooking
+    - /bin/cp -R app config ressources routes composer.json composer.lock $DEPLOYPATH
